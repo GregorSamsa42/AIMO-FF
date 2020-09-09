@@ -3,6 +3,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[T1]{fontenc}
 \usepackage{lettrine}
+\usepackage{hyperref}
 \usepackage{graphicx}
 \DisemulatePackage{setspace}
 \usepackage{setspace}
@@ -27,7 +28,7 @@
   {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
 \makeatother
 \pretitle{\begin{center}\Huge\bfseries}
-\title{In Jürgen's Keller}
+\title{Lockdown}
 \posttitle{\par\vskip1em{\normalfont\normalsize\scshape Eine AIMO-Geschichte\par\vfill}\end{center}}
 \author{Herausgegeben von einer nichtleeren Teilmenge der AIMO-Teilnehmer 2020}
 \predate{\vfill\begin{center}\large}
@@ -35,18 +36,27 @@
 \begin{titlingpage}
 \maketitle
 \end{titlingpage}
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\fbox{\parbox{0.8\textwidth}{\textbf{Disclaimer.} \hspace{0.2cm} Dies ist eine Fanfiction, das heißt, eine erfundene Geschichte, die in Anlehnung an die Geschehnisse der AIMO 2020 geschrieben wurde. Alle vorkommenden Handlungen sind rein fiktiv, insbesondere besteht kein Zusammenhang zwischen den realen und erfundenen Handlungen bestimmter Charaktere.}}
+\end{center}
+\setcounter{page}{2}
 \chapter{Prolog in der Hölle}
 
 \begin{chapquote}{Fyodor Dostoevsky}
 \glqq Aus hundert Kaninchen wird niemals ein Pferd und aus hundert Verdachtsgründen niemals ein Beweis.\grqq
 \end{chapquote}
 
-\lettrine{M}{arc Hieke} schaute müde von den zahlreichen Mathematikaufgaben vor ihm wieder herauf.
+\lettrine{M}{arc Hieke} schaute müde von den zahlreichen Mathematikaufgaben vor sich wieder auf. Links und rechts in seinem Blickfeld stapelten sich Blätter, und er seufzte. Das spärliche, flackernde Licht einer Glühbirne erleuchtete matt das Zimmer, in dem außer dem Tisch keine Möbel standen. Genauso wenig gab es Fenster -- Marc vermisste das Sonnenlicht schon seit Längerem. Seit Stunden versuchte er sich an einer Zahlentheorieaufgabe und kam nicht voran. Sein Kopf schmerzte. Als er Schritte vor seiner vergitterten Tür hörte, begann sein Puls zu rasen. Die Tür schwang auf und eine in einem dunklen Umhang verhüllte Figur erschien. Sie holte aus ihrem Umhang einen weiteren Stapel hervor und knallte ihn vor Marc. \\
+"Die sind bis morgen erledigt, sonst gibt's kein Essen." \\
+Marc schluckte. Die Figur ging wieder in Richtung Tür. Der Umhang flatterte, und darauf prangte ein aufgesticktes Symbol. Die Winkeldreiteilenden eines Dreiecks, die ein weiteres, gleichseitiges Dreieck bildeten. Das Morley-Dreieck.
 
 \chapter{Definitionen und Grundbegriffe} %bis 1.5
-\begin{chapquote}{Veran Stojanović}
-\glqq Was wir wissen, ein Epsilon. Was wir nicht wissen, ein 1/Epsilon.\grqq
+\begin{chapquote}{Patrick Nasri-Roudsari}
+\glqq Mal sehen schreib ich die Fanfiction mit: Hat Jesus die Bibel geschrieben?\grqq
 \end{chapquote}
+
 \textit{Der 20. April 2020} \\ 
 \lettrine{D}{ie Teilnehmerliste} auf der rechten Seite von Georgis Bildschirm füllte sich langsam, als Jürgen Prestin einen AIMO-Teilnehmer nach dem anderen in die Zoomsitzung ließ. Er gedachte, während dieser die am Abend davor abgeschickten Aufgaben zu besprechen. Die ihm inzwischen vertrauten Namen purzelten geradezu in die Sitzung, schon drei Minuten nach 16 Uhr waren so gut wie alle anwesend. Georgi nahm einen Schluck von der Tüte Orangensaft neben seinem Laptop und setzte seine Kopfhörer auf. Veran, Christian und Patrick waren bereits auf einem separaten Discordserver, in dem sie für gewöhnlich während den Seminaren ratschten – er beeilte sich und trat diesem bei. \\
 „Und nach dem Eisensteinkriterium ist $P$ irreduzibel, glaube ich“, beendete Christian seinen Gedanken, woraufhin Veran zögernd sein Einverständnis gab. \\
@@ -66,12 +76,12 @@ Nachdem er fertig war, trat er dem Channel mit den anderen wieder bei.  \\
 %1.2.
 \parasep
 
-Veran stöpselte sich die Kopfhörer aus den Ohren. "Crko dabogda\footnote{möge ich nur sterben}, was für ein autistisches Seminar", dachte er sich - tatsächlich hätte man die letzte Geo mithilfe von Inversion am Kreis kinderleicht i.t.s.-n können, anstatt sich stundenlang anhören zu müssen, wie Lennart Grabbel sie durchmüllert oder durcherikt, je nachdem wie man's bezeichnet. Aus dem Nebenzimmer war schon das alltägliche Gestreite zwischen Verans Mutter, Verans Vater und Verans Bruder zu hören. \\
-"Koji ćevapčići, mrzim ćevapčići\footnote{Was für Cevapcici, ich hasse Cevapcici}!", schrie Verans Bruder. \\
+Veran stöpselte sich die Kopfhörer aus den Ohren. "Crko dabogda\footnote{möge ich nur sterben}, was für ein langweiliges Seminar", dachte er sich - tatsächlich hätte man die letzte Geo mithilfe von Inversion am Kreis kinderleicht i.t.s.-n können, anstatt sich stundenlang anhören zu müssen, wie Lennart Grabbel sie durchmüllert oder durcherikt, je nachdem wie man's bezeichnet. Aus dem Nebenzimmer war schon das alltägliche Gestreite zwischen Verans Mutter, Verans Vater und Verans Bruder zu hören. \\
+"Koji ćevapčići, mrzim ćevapčići!\footnote{Was für Cevapcici, ich hasse Cevapcici!}", schrie Verans Bruder. \\
 "Juče si apsolutno hteo da praviš sunce za ćevapčićime od njih i čak si zvao rođaka da ga pitaš kako pravilno da ih napraviš\footnote{Gestern wolltest du da noch unbedingt eine Cevapcicisonne draus machen und hast dafür extra, deine Cousine angerufen, damit sie dir sagt wie mans richtig macht}!", schrie Verans Vater zurück. \\
-"Mrzim sve vas\footnote{Ich hasse euch alle}!", schrie Verans Mutter und weinte. Veran hasste ebenso seine Familie, besonders wenn sie sich stundenlang streiten musste, deshalb entschied er sich raus an die frische Luft zu gehen um sich von dem serbischen Geschreie zu erholen. Er öffnete die Wohnungstür und blickte auf die tiefe, breite, sogar etwas furchterregende Treppe. Aber weit kam er nicht, denn seine Mutter hielt ihn auf. \\
-"kud ideš\footnote{Wohin gehst du}?", fragte sie skeptisch. \\
-"Nikud\footnote{Nirgendwohin}...", murmelte Veran. Veran hatte keine Lust sich bei seiner Mutter zu rechtfertigen und beschloss sie lieber vom Thema abzulenken. "Ima seminar u Oberwolfachu za 19 dana\footnote{In 19 Tagen ist Seminar in Oberwolfach}", sagte er. "Dabogda ti si visine u trouglu ne sekle u jednoj tačke\footnote{Mögen sich deine Höhen im Dreieck nicht in einem Punkt schneiden}!", entsetzte sich Verans Mutter. Veran ignorierte sie und bahnte sich den Weg duchs Wohnzimmer zum Klavier um den Aufschwung zu spielen. Nur so konnte man nämlich die liebliche Stimme des serbischen Vizepräsidenten im Fernsehen, der momentan Ausschau nach einer Karriere als Präsident hält, übertönen. Sein sympathisches Gesicht bedeckte schon seid mehreren Tagen ununterbrochen das Fernsehapparat. Veran setzte sich ans Klavier und schwang auf. Wenn er spielte, vergaß er alles um sich herum: seine weinende Mutter, seinen meckernden Bruder, Vizepräsident Vučić, selbst seine Cousine, zu der man sogar sagen könnte, dass er eine besondere Beziehung hatte. Man könnte sagen, er reiste in eine andere Welt - oder sogar in eine andere Zeit.
+"Mrzim sve vas!\footnote{Ich hasse euch alle!}", schrie Verans Mutter und weinte. Veran hasste ebenso seine Familie, besonders wenn sie sich stundenlang streiten musste, deshalb entschied er sich raus an die frische Luft zu gehen um sich von dem serbischen Geschreie zu erholen. Er öffnete die Wohnungstür und blickte auf die tiefe, breite, sogar etwas furchterregende Treppe. Aber weit kam er nicht, denn seine Mutter hielt ihn auf. \\
+"kud ideš?\footnote{Wohin gehst du?}", fragte sie skeptisch. \\
+"Nikud...\footnote{Nirgendwohin...}", murmelte Veran. Veran hatte keine Lust sich bei seiner Mutter zu rechtfertigen und beschloss sie lieber vom Thema abzulenken. "Ima seminar u Oberwolfachu za 19 dana\footnote{In 19 Tagen ist Seminar in Oberwolfach}", sagte er. "Dabogda ti si visine u trouglu ne sekle u jednoj tačke!\footnote{Mögen sich deine Höhen im Dreieck nicht in einem Punkt schneiden!}", entsetzte sich Verans Mutter. Veran ignorierte sie und bahnte sich den Weg duchs Wohnzimmer zum Klavier um den Aufschwung zu spielen. Nur so konnte man nämlich die liebliche Stimme des serbischen Vizepräsidenten im Fernsehen, der momentan Ausschau nach einer Karriere als Präsident hält, übertönen. Sein sympathisches Gesicht bedeckte schon seid mehreren Tagen ununterbrochen das Fernsehapparat. Veran setzte sich ans Klavier und schwang auf. Wenn er spielte, vergaß er alles um sich herum: seine weinende Mutter, seinen meckernden Bruder, Vizepräsident Vučić, selbst seine Cousine, zu der man sogar sagen könnte, dass er eine besondere Beziehung hatte. Man könnte sagen, er reiste in eine andere Welt - oder sogar in eine andere Zeit.
 
 \parasep
 
@@ -125,7 +135,7 @@ Es erwarteten sie wieder aufregende Träume.
      %1.3
      \textit{Der 25. April 2020} \\
      
-     Christian erwachte aus unruhigen Träumen. Wie immer, ließ er sich davon aber nicht ablenken und als die ersten paar Strahlen der Münchner Sonne in sein Gesicht schienen, wurde ihm sofort klar: Es ist ein perfekter Tag zum Baden!
+Christian erwachte aus unruhigen Träumen. Wie immer, ließ er sich davon aber nicht ablenken und als die ersten paar Strahlen der Münchner Sonne in sein Gesicht schienen, wurde ihm sofort klar: Es ist ein perfekter Tag zum Baden!
 So verlor er keine einzige Sekunde und führte in größter Eile seine gewöhnliche Morgenroutine durch.
 Nachdem er dann schnell aber sorgfältig seine Zähne geputzt, geduscht, seine Badesachen angezogen, sich eingecremt (obwohl es draußen nur 20 Grad heiß war), dann mit seiner Familie nach einem kurzen Gebet ein paar Semmeln und Brezn gefrühstückt und danach kurz den “QED-Chat” gecheckt hatte, begab er sich auf eine wilde Fahrt zum Englischen Garten.
 Er fuhr blitzschnell durch die Straßen von Schwabing, überquerte die Leopoldstraße und ließ sich dabei nicht von den Menschenmengen ablenken, die den schönen Tag in der Münchner Innenstadt verbringen wollten. Als er dann am großen Park ankam, wurde es schon etwas unangenehm, und das Fahrradfahren durch die mit Fußgängern gefüllten Wege war fast unmöglich. Obwohl dies für Christian eigentlich kein Problem darstellte, beschloss er diesmal, einen Umweg zu fahren - bis zum Eisbach war es schließlich nicht mehr so weit.
@@ -136,7 +146,7 @@ Christian blieb stehen.
 Der Regen wurde immer stärker. \\
 Und dann spürte er hinter seinem Rücken eine menschliche Gestalt, die ihm immer näher kam.
 Er hörte eine bekannte Stimme. \\
-“Guten Tag, Herr Noaghiu” sagte sie.
+“Guten Tag, Herr Noaghiu”, sagte sie.
 Christian erstarrte.
  
 
@@ -144,18 +154,16 @@ Christian erstarrte.
 \begin{chapquote}{Sören Kierkegaard}
 \glqq Wie ist doch die ganze Natur so ominös! Voll Vorbedeutung ist mir der Vögel Flug, ihr Schrei, der Fische ausgelaßnes Schlagen gegen die Oberfläche des Wassers, ihr Verschwinden in der Tiefe, fernes Hundegebell, eines Wagens fernes Gerassel, Schritte, die von fernher widerhallen. Nicht sehe ich Gespenster in dieser nächtlichen Stunde, nicht sehe ich, was war, sondern das, was kommen wird.\grqq
 \end{chapquote}
+%1.6
+\textit{Der 26. April 2020} \\ 
 
      
-       \parasep
-     %1.6
-     \textit{Der 26. April 2020} \\ 
+\parasep
+%1.7
+\textit{Der 30. April 2020} \\
      
-       \parasep
-     %1.7
-     \textit{Der 30. April 2020} \\
-     
-     Es war Dienstag, der 30. April 2020, der 42. Frühlingstag, und 12:36 am Nachmittag. Herr Prestin saß gedankenversunken an seinem Schreibtisch, seine Katze strich ihm um die Beine, und aus der Küche war leise das Radio zuhören, auf dem NDR-Info gerade von dem neuen Antikörpertest berichtete, der eine Genauigkeit von über 99 Prozent haben solle. Doch das interessierte Herrn Prestin nicht, denn neben dem Vorbereitungsmaterial für die Erstsemester befanden sich auf seinem Schreibtisch einige sehr staubige Dokumente, die er soeben aus dem Keller geholt hatte. Sie waren noch aus seiner eigenen Studienzeit, unter anderem gab es dort ein Photo, welches in mit seinem Kommilitonen und guten Freund Michael kurz vor dem Abschluss zeigt. Die Erinnerung stimmte Herrn Prestin sentimental. Nichtsdestotrotz musste er es jetzt zusammen mit den Aufzeichnungen zum Morley-Dreieck (kurioserweise enthielten diese neben normalen geometrischen Skizzen auch überraschend viele Abbildungen von Schaukeln und sogar eine Anleitung zu deren Aufbau) schreddern, bevor er die Überbleibsel eventuell noch verbrennen wollte. Doch plötzlich klingelte es an der Tür. Schnell räumte Herr Prestin die verräterischen Unterlagen beiseite, bevor er zur Tür eilte, doch es war niemand da. Herr Prestin war über diesen Klingelstreich leicht verärgert, aber dies legte sich fast sofort, denn aus der Küche kam die Stimme seiner Frau. \\
-      “Jürgen, Schatz, der Dienstagsbraten ist fertig!“ Das freute Herrn Prestin natürlich sehr, denn schließlich gab es den Dienstagsbraten nur alle sieben Tage. Nach dem Essen bereitete er die Unterlagen für die morgige Online-Vorlesung für seine Studenten vor und der Karton mit den Aufzeichnungen zum Morley-Dreieck konnte noch etwas länger und intakt in der dunklen, relativ unzugänglichen hinteren linken Ecke des Zimmers, gleich zwischen Tür und Schrank, verbleiben. 
+     Es war Donnerstag, der 30. April 2020, der 42. Frühlingstag, und 12:36 am Nachmittag. Herr Prestin saß gedankenversunken an seinem Schreibtisch, seine Katze strich ihm um die Beine, und aus der Küche war leise das Radio zuhören, auf dem NDR-Info gerade von dem neuen Antikörpertest berichtete, der eine Genauigkeit von über 99 Prozent haben solle. Doch das interessierte Herrn Prestin nicht, denn neben dem Vorbereitungsmaterial für die Erstsemester befanden sich auf seinem Schreibtisch einige sehr staubige Dokumente, die er soeben aus dem Keller geholt hatte. Sie waren noch aus seiner eigenen Studienzeit, unter anderem gab es dort ein Photo, welches in mit seinem Kommilitonen und guten Freund Michael kurz vor dem Abschluss zeigt. Die Erinnerung stimmte Herrn Prestin sentimental. Nichtsdestotrotz musste er es jetzt zusammen mit den Aufzeichnungen zum Morley-Dreieck (kurioserweise enthielten diese neben normalen geometrischen Skizzen auch überraschend viele Abbildungen von Schaukeln und sogar eine Anleitung zu deren Aufbau) schreddern, bevor er die Überbleibsel eventuell noch verbrennen wollte. Doch plötzlich klingelte es an der Tür. Schnell räumte Herr Prestin die verräterischen Unterlagen beiseite, bevor er zur Tür eilte, doch es war niemand da. Herr Prestin war über diesen Klingelstreich leicht verärgert, aber dies legte sich fast sofort, denn aus der Küche kam die Stimme seiner Frau. \\
+      “Jürgen, Schatz, der Donnerstagsbraten ist fertig!“ Das freute Herrn Prestin natürlich sehr, denn schließlich gab es den Donnerstagsbraten nur alle sieben Tage. Nach dem Essen bereitete er die Unterlagen für die morgige Online-Vorlesung für seine Studenten vor und der Karton mit den Aufzeichnungen zum Morley-Dreieck konnte noch etwas länger und intakt in der dunklen, relativ unzugänglichen hinteren linken Ecke des Zimmers, gleich zwischen Tür und Schrank, verbleiben. 
      
 \parasep
      %1.8
@@ -192,9 +200,9 @@ Als Patrick dem noch etwas hinzufügen wollte, wurde er durch den Klingelton sei
 „Ne“, sagte Patrick, nachdem er auf sein Handy geschaut hatte. „Vom Nummernnachbarn, richtig komisch. Er schreibt: ‚Er hat wieder zugeschlagen. Komm zu mir, sonst landest du auch bald da unten!‘“
 Veran war verwirrt: „Was soll das denn jetzt bitte heißen?“
 Keiner der Jugendlichen wusste eine Antwort darauf. \\
-"Ich glaube, er ist einfach paranoid", spekulierte Sofia.
-Patrick verkündete darauf: "So, ich hab ihn jetzt blockiert. Ich hab echt keine Lust mehr auf seine Spinnereien." \\
-"Ja, das ist wohl das Beste", meinte Veran. Doch es sollte sich anders herausstellen.
+„Ich glaube, er ist einfach paranoid“, spekulierte Sofia.
+Patrick verkündete darauf: „So, ich hab ihn jetzt blockiert. Ich hab echt keine Lust mehr auf seine Spinnereien.“ \\
+„Ja, das ist wohl das Beste“, meinte Veran. Doch es sollte sich anders herausstellen.
  
      
 \parasep
@@ -227,7 +235,7 @@ müsst ihr uns erst kennenlernen. \\  \\
 Ich bin Käpt'n dieser Bande \\
 Zu ganz vielem wohl im Stande. \\
 Mit viel Wumms werd' ich erziehen, \\
-sonst wär' ich nicht der Herr Prestin. \\
+sonst wär' ich nicht der Herr Prestin. \\ \\
 
 Mit stummen Blicken folge ich \\
 Jedem Schritt, ganz unheimlich. \\
@@ -254,12 +262,28 @@ Warnemünde bis Oberwolfach. \\
 Und fühlt euch nicht gleich überrollt, \\
 falls ihr zu der IMO wollt.
 \end{singlespace}
-\onehalfspacing
 \chapter{Hinführung} %bis 2.1
 \begin{chapquote}{Patrick Nasri-Roudsari}
 \glqq AIMO sind objektiv massig Autisten.\grqq
 \end{chapquote}
-     \textit{Der 9. Mai 2020} \\
+\textit{Der 9. Mai 2020} \\
+\parasep
+%2.1.b
+„Ja, hallo zusammen!“, begrüßte Jan-Christoph Schlage-Puchta die Seminarteilnehmer. „Ich heiße euch hiermit auch noch einmal offiziell zum Abschlussseminar der AIMO 2020 hier im Mathematischen Forschungsinstitut Oberwolfach willkommen. Wie ihr wisst, sind wir hier an einem höchst renommierten Institut zu Gast sind, deswegen bitte ich euch auch noch einmal: Haltet euch an die Regeln, die wir euch mitgeteilt haben. Insbesondere sind die Coronabestimmungen von höchster Priorität. Wir wollen ja keinen schlechten Eindruck hinterlassen. Ich hoffe, es wird für uns alle eine schöne Zeit.“ Er wurde von Patrick unterbrochen, der gerade noch zur Tür hineinkam und sich schnell einen Platz suchte. Herr Schlage-Puchta musterte ihn kurz und fuhr fort: „Da wir ja jetzt vollzählig sind, können wir mit etwas Mathematik anfangen. Es geht um Zah-“ \\
+„Aber Christian fehlt doch noch!“, rief Sofia darauf hinein. \\
+„Und Marc!“, bemerkte Lennart. \\
+„Ach, euch wurde noch gar nicht Bescheid gesagt?“ \\
+„Nein?“, antwortete Sofia erstaunt. \\
+„Die beiden konnten leider kurzfristig wegen einer Erkrankung nicht kommen.“ \\
+Die Teilnehmer sahen sich verdutzt an. \\
+„Haben sie Corona?“, schaltete sich nun Boldizsár ein. \\
+„Ich weiß es nicht. Jürgen, äh, Herr Prestin hat heute Morgen diesbezüglich eine Mail an alle Mentoren rumgeschickt, aber mehr hat er auch nicht geschrieben.“ \\
+„Das ist echt komisch“, flüsterte Veran Georgi zu. „Warum hat dann seine Mutter gesagt, dass er schon hier ist?“ \\
+„Ja, ich weiß auch nicht was ich dazu sagen soll…“, antwortete Georgi mit einem Stirnrunzeln. \\
+Sofia meinte dazu nur: „Jebiga, was machen wir denn jetzt ohne Christian?“
+
+
+
 \chapter{Motivation} %bis 2.2
 \begin{chapquote}{Veran Stojanović}
 \glqq Abends passieren die wichtigen Dinge.\grqq
@@ -272,7 +296,6 @@ Während seine Mannschaft überlegte und das gegnerische Team nichts zu tun hatt
 Die anderen antworteten erst einmal nicht, bis Jonah höflichkeitshalber sagte, dass sie sicher gute Gründe hätten. Danach breitete sich ein etwas unangenehmes Schweigen aus, das nur spärlich von den Beratungen von Philip und Patrick über den Tipp von Jonah unterbrochen wurde. Sie einigten sich schließlich auf das Wort „Riemen“ und gewannen somit das Spiel. \\
 Als sie mit dem Aufräumen fertig waren, schlug Sofia vor, wie fast jeden Abend auf den anderen Seminaren, einen gemeinsamen Nachtspaziergang zu machen. Ihre drei Freunde stimmten sofort zu, wenn auch etwas enttäuscht darüber, dass sie wohl ohne Christian klarkommen mussten. Zehn Minuten später standen sie in Jacken bepackt am Eingang zum Forschungsinstitut – doch nicht nur zu viert. \\
 „Wolltest du auch mitkommen, Boldizsár?“, fragte Georgi und erhielt von ihm ein knappes Ja als Antwort. Schon stampften sie los und liefen ziellos durch die Umgebung, welche hauptsächlich aus Wald bestand. Die Nacht hatte sich bereits über das Land gelegt, und der Himmel war so klar, dass man die meisten zu dem Zeitpunkt sichtbaren Sternzeichen erkennen konnte. Veran dachte, dass Maria, die sich mit dem Sternenhimmel auskannte, sich bestimmt darüber gefreut hätte. Man hörte vereinzelt Grillen zirpen oder Eulen rufen, ansonsten war es absolut still. Patrick faltete gekonnt seine Hände, hielt sie sich vor dem Mund und erzeugte das Pfeifen, mit dem er seine Freunde schon oft belustigt hatte. Doch heute war keiner wirklich in der Laune, darüber zu lachen. Zu beschäftigt waren alle mit ihren Gedanken, und Boldizsár wunderte sich über die Trübseligkeit der ihm sonst als heiter in Erinnerung gebliebenen Jugendlichen. Sofia, die vorne lief und die Richtung vorgab, entschied sich, rechts abzubiegen, und schon waren alle mitten im Wald. Veran dachte sich zwar, dass das nicht die beste Idee wäre, aber er entschied sich dagegen, sich zu beschweren. Im Schweigen liefen die fünf auf dem unebenen Waldweg, bis sich Georgi endlich dafür entschied, etwas zu sagen. \\
-
 „Ach Leute, seid doch nicht so. Ich wette, Christian geht es gut.“
 Er erspähte ein paar Schritte vor sich ein Laubhaufen und hatte eine Idee.
 „Veran, lass da reinspringen!“ \\
@@ -370,13 +393,13 @@ Zögernd antwortete Christian: \\
 “Herr Prestin.”
 
 \chapter{Rückbezug} %bis 3.1
-\begin{chapquote}{Patrick Nasri-Roudsari}
-\glqq Mal sehen schreib ich die Fanfiction mit: Hat Jesus die Bibel geschrieben?\grqq
+\begin{chapquote}{Veran Stojanović}
+\glqq Was wir wissen, ein Epsilon. Was wir nicht wissen, ein 1/Epsilon.\grqq
 \end{chapquote}
 
 \chapter{Abschließende Überlegungen} %bis 4.2
-\begin{chapquote}{Georgi Kocharyan}
-\glqq Es muss tierisch sinnlich sein.\grqq
+\begin{chapquote}{Veran Stojanović}
+\glqq Wie kommt man zum Höhepunkt?\grqq
 \end{chapquote}
 “...und deshalb werde ich hier seit 2 Wochen gezwungen, nur Mathe zu machen.” \\
 Sofia, Georgi und Veran hatten Christian überredet, ihnen alles zu erzählen. Sie konnten es nicht fassen, was in den letzten Tagen in diesem Keller abging. \\
@@ -386,25 +409,60 @@ Sofia, Georgi und Veran hatten Christian überredet, ihnen alles zu erzählen. S
 “Ach komm! Man muss schon ein bisschen Mitleid mit ihm haben. Er hat ja schließlich alles verloren...
 Und außerdem find ich’s mittlerweile ganz okay hier. Ich mein...ich mach ja den ganzen Tag Mathe, besser geht’s doch nicht!
 Ach ja, und der Sonntagsbraten von Herr Prestin ist der Beste, den ich je gegessen hab!” \\
-“Christian, was redest du eigentlich gerade???” schrie ihn Georgi an. “Schau dich mal an! Du bist völlig blass geworden! Das, was Herr Prestin mit dir und Marc gemacht hat - und wahrscheinlich bald mit anderen AIMO-Teilnehmern machen wird - ist äußerst strafbar! Wir müssen die Polizei anrufen.”
+“Christian, was redest du eigentlich gerade???”, schrie ihn Georgi an. “Schau dich mal an! Du bist völlig blass geworden! Das, was Herr Prestin mit dir und Marc gemacht hat - und wahrscheinlich bald mit anderen AIMO-Teilnehmern machen wird - ist äußerst strafbar! Wir müssen die Polizei anrufen.”
 In dem Moment erschien aus einer Tür im anderen Raum Herr Prestin. \\
 “Oh! Herr Kocharyan! Frau Zotova! Herr Stojanovic! Das ist ja niedlich!” \\
-“Wir wissen alles!” konfrontierte ihn Georgi. “Wie konnten Sie nur zwei Jugendliche entführen und sie in einen Keller einsperren? Und das alles um Ihren scheiß Ruf nicht zu verlieren! Wissen Sie was? Mich interessiert gar nicht wie intelligent Sie sind und was Sie alles bisher erfunden und entdeckt haben. Aber eine so mächtige wissenschaftliche Erkenntnis für solche dumme Sachen zu missbrauchen...dafür sollten Sie sich wirklich schämen!!!” \\
-“Jetzt haben Sie doch ein wenig Mitleid mit mir. Ich wollte das nur für unser IMO-Team machen...” rechtfertigte sich Herr Prestin. Nach kurzem Überlegen sagte er: “Okay. Entschuldigung. Vielleicht habe ich wirklich etwas übertrieben. Ich verspreche, das nie wieder zu machen. Können wir jetzt damit leben?” 
+“Wir wissen alles!”, konfrontierte ihn Georgi. “Wie konnten Sie nur zwei Jugendliche entführen und sie in einen Keller einsperren? Und das alles um Ihren scheiß Ruf nicht zu verlieren! Wissen Sie was? Mich interessiert gar nicht wie intelligent Sie sind und was Sie alles bisher erfunden und entdeckt haben. Aber eine so mächtige wissenschaftliche Erkenntnis für solche dumme Sachen zu missbrauchen...dafür sollten Sie sich wirklich schämen!!!” \\
+“Jetzt haben Sie doch ein wenig Mitleid mit mir. Ich wollte das nur für unser IMO-Team machen...”, rechtfertigte sich Herr Prestin. Nach kurzem Überlegen sagte er: “Okay. Entschuldigung. Vielleicht habe ich wirklich etwas übertrieben. Ich verspreche, das nie wieder zu machen. Können wir jetzt damit leben?” 
 Sofia, Georgi und Veran schauten sich kurz an und dann sagte Georgi: \\
 “Nein. Wir vergeben Ihnen nicht. Sie müssen zur Polizei.”
 Herr Prestin ließ sich dann zwingen, die Treppe hochzugehen. Man erkannte in seinem Gesicht eine tiefe Traurigkeit - er hat nicht das geschafft, was er wollte. Er sagte dann noch einen letzten Satz zu Christian. \\
 “Herr Noaghiu, geben Sie bitte alles bei der IMO. Ich weiß, dass Sie das können.”
 Sie gingen dann zu fünft aus dem Keller heraus. Die Polizei wurde bereits kontaktiert. 
-Und dann hörte man ein lautes Geräusch. Und dann einen lauten Schrei. Veran ist beim Hochgehen gestolpert und fiel die Treppe herunter. Christian, Sofia und Georgi gingen schnell zu ihm. Zum Glück hatte er nur eine kleine Wunde. Er hat sich aber so sehr erschreckt, dass er Angst hatte wieder hochzugehen. Mit vereinten Kräften schafften es anderen, ihn dazu zu bringen, die Treppe zu besteigen. \\
-“Es ist nur eine dumme Treppe. Das wird nie wieder passieren” ermutigten sie ihn.
-Und gerade als sie bereit waren wieder hochzugehen, sahen sie Herr Prestin, wie er ein Morley-Dreieck in der Luft erscheinen ließ und schnell durch dieses verschwand.  \\
-
-“Jebiga” sagte Sofia.
-
+Und dann hörte man ein lautes Geräusch, gefolgt von einem lauten Schrei. Veran war beim Hochgehen gestolpert und die Treppe heruntergefallen. Christian, Sofia und Georgi eilten schnell zu ihm hinunter. \\
+„Alles okay?“ 
+Zum Glück hatte er nur eine kleine Wunde. Er hat sich aber so sehr erschreckt, dass er Angst hatte, wieder hochzugehen. Mit vereinten Kräften schafften es die anderen, ihn dazu zu bringen, die Treppe zu besteigen. \\
+“Es ist nur eine dumme Treppe. Das wird nie wieder passieren”, ermutigten sie ihn.
+Und gerade als sie bereit waren wieder hochzugehen, erblickten sie Herrn Prestin, wie er ein Morley-Dreieck in der Luft erscheinen ließ. Und schon war er hindurch verschwunden.  \\
+„Jebiga“, fluchte Sofia.
 
 \parasep
      %4.2
+     
+„Das kann er doch nicht ernst meinen!“ Georgi war außer sich vor Wut. „Und was machen wir jetzt?“ \\
+„Also ich will einfach nur hier raus!“, sagte Christian.
+Das ließen sich die anderen nicht zweimal sagen. Und so stiegen sie gemeinsam die Treppe hinauf – Veran hatte dabei immer noch ein mulmiges Gefühl – und verließen das dunkle Gewölbe über die Luke. \\
+„Frische Luft!“, rief Veran begeistert.
+Es war inzwischen Nacht geworden. Über dem Wald ruhte der Vollmond, der die Umrisse der Bäume sichtbar machte. Ganz leise war im Hintergrund der Gesang einer Nachtigall zu vernehmen.
+Die Stimmung war ungewöhnlich. Nicht gruselig – so wie das erste Mal, als die Jugendlichen hier gewesen waren. Und doch lag etwas in der Luft. Die vier hatten unglaubliche Dinge gesehen. Was würden nur die anderen Teilnehmer dazu sagen?
+
+Als sie in Richtung des Instituts zurückgingen, kam auf einmal eine Gestalt auf sie zu. \\
+„Patrick!“, rief Christian, „Wo kommst du denn her?“ \\
+„Jungs“, schnaufte Patrick darauf. „Ich weiß Bescheid. Wir müssen sofort zu Prestin.“
+Sofia war verwundert. \\ „Hä Patrick, Prestin ist vorhin vor unseren Augen verschwunden! Lass mal lieber zu den anderen ins Institut gehen!“
+Doch Patrick ließ nicht locker.  \\
+„Es geht um Zeit. Zeit ist alles! Passt auf: Prestin ist aus der Zukunft zurückgekommen. Dieser Prestin ist aus der Zukunft. Es gibt aber noch den ‚richtigen‘ Prestin von jetzt, der sich in der Zukunft dazu entscheiden wird, zurückzureisen und das alles anzurichten. Und das ist unsere einzige Chance: Wir müssen den Prestin von jetzt genau daran hindern. Dann wird er nicht zurückreisen, und der Zukunftsprestin von jetzt wird nie existiert haben. Versteht ihr?“
+Sofia war verwirrt. \\
+„Fishy. Ich versteh gar nichts mehr – wir verändern die Zukunft, damit in der Vergangenheit, die ja dann die Gegenwart ist – nein, wir verändern die Gegenwart, damit in – ach, das ist viel zu kompliziert!“
+Doch Veran schien zu begreifen. \\
+„Das ist echt big brain“, meinte er zu Patrick. „Aber was sagen wir denn jetzt zu Prestin? ‚Sie werden sich in der Zukunft dazu entschließen, durch die Zeit zu reisen, um AIMO-Teilnehmer einzusperren‘? Das glaubt er uns nie im Leben!“
+Aber auch dafür wusste Patrick einen Rat. \\
+„Wir haben Beweise: seine Akten und die Kassette. Und das er durch die Zeit reisen kann, weiß er schon seit über 30 Jahren.“
+Die anderen stimmten ihm zu. \\
+„Okay, auf zu Prestin“, forderte Christian die anderen auf.
+„Moment mal, wo ist Maria?“, unterbrach ihn Sofia.
+„Wir haben keine Zeit. Prestin ist in seinem Zimmer, wir müssen uns beeilen“, antwortete Patrick knapp. \\
+„Sag mal, Patrick“, holte Georgi aus, „woher weißt du das alles?“ \\
+„Das spielt jetzt keine Rolle. Wir müssen los.“
+Und so rannten die fünf Jugendlichen los, bogen kurz vor dem Institut ab und näherten sich stattdessen dem Hotel. Sie öffneten die Tür, stiegen mit schnellen Schritten die Treppe hinauf und betraten den Gang, in dem die Mentoren wohnten. Patrick suchte nach der Zimmernummer von Herrn Prestin. \\
+„39, 40, 41, 42. Hier ist es!“
+Er hielt kurz inne, nahm allen Mut zusammen und öffnete die Tür. \\
+„Herr Prestin!“, rief Sofia – aber er lag bereits in seinem Bett und schlief. \\
+„Mist“, flüsterte Georgi darauf enttäuscht, „Wollen wir ihn wecken?“ \\
+„Ne, lass mal nicht“, meinte Veran.
+Doch dann spürten die Jugendlichen plötzlich in ihren Nacken einen tiefen Blick, der sie durchbohrte. Einer nach dem anderen drehten sie sich um und erblickten Jan-Christoph Schlage-Puchta, der wie aus dem Nichts in der Tür erschienen war. Er wirkte nicht erfreut, sie zu sehen – geradezu bedrohlich. \\
+„Na, wen haben wir denn da?“, sagte er mit einem breiten Grinsen im Gesicht. Kurz darauf sahen die Jugendlichen nur noch verschwommen, und nach wenigen Sekunden wurde alles schwarz.
+
      
      
 \chapter{Im Kerker} %bis 4.3
@@ -412,8 +470,124 @@ Und gerade als sie bereit waren wieder hochzugehen, sahen sie Herr Prestin, wie 
 \glqq Grandeur, savoir, renommée, \\
 Amitié, plaisir et bien, \\
 Tout n’est que vent, que fumée, \\
-Pour mieux dire, tout n’est rien. 
-\grqq
+Pour mieux dire, tout n’est rien.\grqq
 \end{chapquote}
+
+Allmählich wachten die Jugendlichen auf und kamen zu sich. Ihnen dröhnten die Köpfe. Sie schauten sich um und bemerkten, dass sie an einem anderen Ort waren. Schnell bemerkten sie, um welchen Ort es sich handelte. Sie waren in Prestins Keller, allerdings in einem kleineren Raum, der ihnen nicht bekannt war. \\
+„Oh Gott, was machen wir hier?“, ächzte Georgi. 
+Sofia sprang auf und lief zu der vergitterten Tür. Sie versuchte, gegen das Gitter zu drücken, am Ende schlug sie sogar verzweifelt gegen die Tür. \\
+„Lasst uns heraus!“, schrie sie verbittert. Nach einigen Minuten setzte sie sich wieder zu den anderen. \\
+Patrick zeigte auf einen seltsam aussehenden Kasten, der in einer Ecke stand. \\
+„Was ist das denn?“ \\
+„Damit findet Herr Prestin heraus, ob du bereit für die IMO bist“, antwortete Christian. „Er nennt es den Prestindikator.“ \\
+„Aaar.“ \\
+Einige Sekunden vergingen in Stille, bis Veran etwas sagte. \\
+„Ich glaube, das, was gerade abgeht, ist viel größer, als wir denken. Wie eine riesige Verschwörung. Und wir können den Lauf der Dinge nicht ändern. Das hier ist auch Teil unseres Schicksals.“ \\
+Christian saß nur alleine in einer Ecke und summte vor sich hin. Als die anderen das hörten, stimmten sie, vielleicht um der betrübten und ernsten Stimmung entgegenzuwirken, ein Lied an. \\
+
+
+\begin{singlespace}
+\noindent 
+\glqq In the time, when I was born \\
+Lived a man, who swinged through time \\
+
+\noindent 
+And he told us of first life \\
+In the fall of twenty-nil \\
+
+\noindent
+So we wandered, through the night, \\
+till we found, the hidden hatch \\
+
+\noindent
+And we lived, beneath the ground, \\
+in the cellar, of Prestin \\
+
+\noindent 
+We all live in the cellar of Prestin \\
+Cellar of Prestin \\
+Cellar of Prestin \\
+We all live in the cellar of Prestin \\
+Cellar of Prestin \\
+Cellar of Prestin \\
+
+\noindent 
+And our friends are all aboard \\
+Many more of them, locked next door \\
+
+\noindent 
+And the Zoom meeting begins \\
+da da di dum di dum di dum \\
+
+\noindent 
+We all live in the cellar of Prestin \\
+Cellar of Prestin \\
+Cellar of Prestin \\
+We all live in the cellar of Prestin \\
+Cellar of Prestin \\
+Cellar of Prestin \\
+
+\noindent 
+And we lived a life of math \\
+Many triangles is all we have \\ 
+
+\noindent 
+Lines of tears and points of blood \\
+In the cellar, life is hard \\ 
+
+\noindent 
+We all live in the cellar of Prestin \ldots\grqq
+\end{singlespace}
+
+„Schade, dass Maria nicht da ist", seufzte Sofia. „Die Beatles sind doch ihre Lieblingsband.“ \\
+„Leute, was ist das?“, fragte Georgi auf einmal. \\
+„Die Beatles?“, antwortete Sofia verwirrt. \\
+„Nein, schau doch hinter dir!“ \\
+Eine majestätisch violett leuchtende Form schwebte in der Luft. Ein Dreieck. Die Jugendlichen starrten es verwundert an. \\
+„Ein Morley-Dreieck!“, rief Patrick. Doch dann wurden die Höhen auf den drei Seiten langsam eingezeichnet.
+„Das ist kein Morley-Dreieck“, sagte Veran. \\
+Es ergab sich eine Figur, deren Existenz sie nie für möglich gehalten hätten. \\
+„Was zum \ldots Warum schneiden die Höhen sich nicht in einem Punkt?“, schrie Sofia aufgebracht. Das kleine Dreieck in der Mitte, das von den drei Höhen gebildet wurde, leuchtete auf, dessen grelles Licht fast unerträglich wurde. Doch dann hörte man jemanden sprechen. \\
+„Kommt her!“, sagte er direkt aus dem Höhendreieck. Die fünf schauten sich an, diesmal völlig aus der Fassung.
+„Ich kenne diese Stimme“, sagte Sofia leise, und auch alle anderen verstanden, um wen es sich handelte. „Das ist doch nicht \ldots “ \\
+Eine Hand erschien durch das Höhendreieck und Max Keßler rief: „Jetzt beeilt euch, wir haben nicht mehr viel Zeit!“ \\
+Die Jugendlichen wussten, was zu tun war. Nachdem sie sich zugenickt hatten, griffen sie gleichzeitig nach seiner Hand. Und sobald ihre Hände sich berührt hatten, waren sie mitsamt des Dreiecks verschwunden.
+\newpage
+\thispagestyle{empty}
+\begin{center}
+\textit{Fortsetzung folgt...}
+\end{center}
+
+\chapter{Anhang}
+\begin{chapquote}{Veran Stojanović}
+\glqq Wenn Max Keßler uns rettet, ist es ein deus ex maxina.\grqq
+\end{chapquote}
+\section*{Honourable Mentions für den Titel}
+\begin{itemize}
+\item Prestinhaftiert
+\item Under Presture
+\item Pressed In
+\item Trabbel in Oberwolfach
+\item In Jürgens Keller
+\item Der unendliche Abstieg
+\item Prestinfiziert
+\item Prestissimo
+\item Presto ma non troppo
+\item Abschwung
+\item Prestinternationale Mathematik-Olympiade
+\end{itemize}
+\section*{Fachbegriffeglossar}
+% i.t.s, Yarrack, Jebiga, ölen, Höhendreieck, Morleydreieck
+\paragraph{Jebiga.} Serbischer vulgärer Ausdruck, der mit „verdammt“, „was solls“ oder „Pech gehabt“ übersetzt werden kann. Mit dem Ausdruck „Jebiga“ wird Resignation und das Akzeptieren von unveränderlichen Fakten oder Lebensumständen ausgedrückt.
+\paragraph{Ölen.} Ist kein Brokkoli
+\paragraph{Yarrack-Formel.} siehe \url{https://www.youtube.com/watch?v=LJVH4_HBTrw}
+\paragraph{Höhendreieck.}  Das Dreieck, das durch die drei Höhen eines größeren Dreiecks entsteht, wenn sie sich nicht in einem Punkt schneiden.
+\paragraph{Morleydreieck.} Das gleichseitige Dreieck, das durch die drei Winkeldreiteilenden eines anderen Dreiecks aufgeschwungen wird. Durch eine Fehlinterpretation der Aussage „es verschwinden Dinge während des Vortrags  über das Morleydreieck“ kam es zum Mythos über das Zeitreisen.
+\paragraph{Sonntagsbraten.} Äußerung J. Prestins während eines Zoomseminars, die Teilnehmer würden sich auf den Sonntagsbraten freuen.
+\paragraph{i.t.s.} nordrhein-westfälische Wendung für „immediate to see“
+\newpage
+\section*{Danksagung} 
+Wir bedanken uns bei allen Teilnehmern und Mentoren der AIMO 2020 für die unglaublich schöne Zeit, die wir auf den Seminaren verbringen durften. Nachdem wir uns dort kennengelernt hatten, haben wir nicht nur auf den Seminaren, sondern auch in unserer Freizeit wir viel Zeit miteinander verbracht und konnten eine wirklich enge Freundschaft schließen -- danke, dass uns hierfür der Anlass geboten wurde. \\
+Wir wünschen allen Teilnehmern alles Gute für die Zukunft und fürs Studium, und weiterhin der IMO-Mannschaft (insbesondere Christian Noaghiu, der sehr intensiv dafür traniert hat) viel Erfolg!
 
 \end{document}
